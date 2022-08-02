@@ -4,6 +4,23 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
+        <router-link id="home" to="/Home">
+          Home
+          </router-link>
+      </li>
+      <li>
+        <router-link id="pg1" to="/Page1">
+          FirstPage
+          </router-link>
+      </li>
+      <li>
+        <router-link id="pg2" to="/Page2">
+          SecondPage
+          </router-link>
+      </li>
+    </ul>
+    <!-- <ul>
+      <li>
         <a
           href="https://vuejs.org"
           target="_blank"
@@ -44,9 +61,14 @@
           Docs for This Template
         </a>
       </li>
-    </ul>
+    </ul> -->
     <h2>Ecosystem</h2>
     <ul>
+      <li> <a href="http://localhost:8080/#/Home" target="_blank">Home </a> </li>
+      <li> <a href="http://localhost:8080/#/Page1" target="_blank">FirstPage </a> </li>
+      <li> <a href="http://localhost:8080/#/Page2" target="_blank">SecondPage </a> </li>
+    </ul>
+<!--     <ul>
       <li>
         <a
           href="http://router.vuejs.org/"
@@ -79,7 +101,7 @@
           awesome-vue
         </a>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
